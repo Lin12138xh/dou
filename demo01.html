@@ -1,0 +1,38 @@
+<!--<!DOCTYPE html>代表网页支持h5技术-->
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Demo01</title>
+	</head>
+	<body>
+		<!--所有的标签代码都写在body里面-->
+		<!--
+			1、显示文本的标签
+			2、显示图片的标签
+			3、跳转页面的标签（即可制作静态页面）
+		-->
+		
+		<!--代表一个段落-->
+		<!--html 中 文本之间只会被当做一个空格，如果需要显示多个空格，使用&nbsp；-->
+		<p>这是&nbsp;&nbsp;一个段落</p>
+		<p>这是第二个段落</p>
+		<!--特殊字符，特别是>,<等，最好使用实体字符，否则会被当做标签-->
+		<p>&lt;p</p>
+		<!--图片标签-->
+		<!--src 表示图片路径-->
+		<img src="img/night.jpg"  />
+		<!--跳转标签-->
+		<a href="index.html">跳转</a>
+		<a href="http://192.168.1.101:8080/MyFirstWebPro">zai跳转</a>
+		
+		<!--ctrl+shift+F-->
+		<p>
+			<a href="index.html">嵌套</a>
+		</p>
+		<!--不要交叉嵌套-->
+		<!--点击图片跳转到index-->
+		<a href="index.html"><img src="img/night.jpg"/></a>
+	</body>
+</html>

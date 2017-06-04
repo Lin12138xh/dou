@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>demo02</title>
+		<style type="text/css">
+			/*1/标签选择器*/
+			img{
+				/*只需要控制一个，长或高，会成比例缩放*/
+				width:500px;
+			
+			}
+			p{
+				/*RGB颜色，6位16进制的数，每两位代表一种颜色*/
+				background-color: #FFFFFF;
+			}
+			body{
+				background-color: black;
+			}
+			/*
+			 * 1、指定第一背景色是红色
+			 * 2、id选择器(相同的id名，整个页面只允许出现一个)
+			 */
+		  
+			#pFirst{
+				background-color: red;
+			}
+			/*3、class选择器*/
+			.Green{
+				/*背景颜色*/
+				background-color: green;
+				/*文本大小*/
+				font-size: 30px;
+				/*文本颜色*/
+				color: white;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<img src="img/night.jpg" />
+		<p id="pFirst">第一个段落</p>
+		<p class="Green">第二个段落</p>
+		<p class="Green">第三个段落</p>
+	</body>
+</html>
